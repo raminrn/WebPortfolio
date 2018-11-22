@@ -172,7 +172,7 @@ const Index = () => (
             <ProjectCard
               title="Zona Uslugi"
               link="https://www.zonauslugi.com/"
-              bg="linear-gradient(#CD304B 0%, #34BFBA 100%)"
+              bg="linear-gradient(to right, #CD304B 0%, #34BFBA 100%)"
             >
               Custom design website for a small business build with CMS Wordpress.
             </ProjectCard>

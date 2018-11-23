@@ -157,7 +157,12 @@ const Index = () => (
           <Subtitle>I'm a front-end developer based in Sofia, Bulgaria</Subtitle>
         </Hero>
       </Content>
-      <DividerMiddle bg="linear-gradient(to right, #f7ff00 0%, #db36a4 100%)" speed={-0.2} offset={1.1} factor={2} />
+      <DividerMiddle
+        bg="linear-gradient(to right, ##9CECFB 0%, #65C7F7 80%, #0052D4 100%)"
+        speed={-0.2}
+        offset={1.1}
+        factor={2}
+      />
       <Content speed={0.4} offset={1.2} factor={2}>
         <Inner>
           <Title>Projects</Title>

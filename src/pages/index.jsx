@@ -49,7 +49,7 @@ const Title = styled.h1`
 `;
 
 const Subtitle = styled.p`
-  ${tw('text-2xl lg:text-4xl font-serif text-white mt-8 xxl:w-3/4')};
+  ${tw('text-2xl lg:text-4xl font-sans text-white mt-8 xxl:w-3/4')};
   text-shadow: 2px 2px 3px #222222, 2px 3px 3px #212426;
 `;
 
@@ -170,28 +170,28 @@ const Index = () => (
             <ProjectCard
               title="Art for Amateurs"
               link="https://www.artforamateurs.com/"
-              bg="linear-gradient(to right, #fff 0%, #959797 30%, #23282D 100%)"
+              bg="linear-gradient(#AECCE4 0%, #AECCE4 100%)"
             >
               Blog about art and travel build using CMS Wordpress.
             </ProjectCard>
             <ProjectCard
-              title="Zona Uslugi"
-              link="https://www.zonauslugi.com/"
-              bg="linear-gradient(to right, #CD304B 0%, #34BFBA 100%)"
-            >
-              Custom design website for a small business build with CMS Wordpress.
-            </ProjectCard>
-            <ProjectCard
               title="Balkan Book"
               link="https://github.com/raminrn/BalkanBook"
-              bg="linear-gradient(#159957 0%, #155799 100%)"
+              bg="linear-gradient(#FFCC33 0%, #FFCC33 100%)"
             >
               Social media application for balkans. Build using jQuery, Handlebars & Sammy.
             </ProjectCard>
             <ProjectCard
+              title="Zona Uslugi"
+              link="https://www.zonauslugi.com/"
+              bg="linear-gradient(#3AB8A2 0%, #3AB8A2 100%)"
+            >
+              Custom design website for a small business build with CMS Wordpress.
+            </ProjectCard>
+            <ProjectCard
               title="Other Projects"
               link="https://github.com/raminrn/"
-              bg="linear-gradient(to right, #FF8008 0%, #FFC837 100%)"
+              bg="linear-gradient(#FF5344 0%, #FF5344 100%)"
             >
               Feel free to view my other projects.
             </ProjectCard>

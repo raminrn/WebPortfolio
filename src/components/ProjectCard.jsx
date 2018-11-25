@@ -17,13 +17,13 @@ const Wrapper = styled.a`
 
 const Title = styled.div`
   ${tw(
-    'text-red-black font-semibold text-center font-sans leading-normal capitalize text-2xl md:text-3xl xl:text-4xl tracking-wide pb-6'
+    'text-red-black font-semibold text-center font-serif leading-normal capitalize text-2xl md:text-3xl xl:text-4xl tracking-wide pb-6'
   )};
   text-shadow: 1px 0px 3px #2e2e2e, 1px 0px 3px #212426;
 `;
 
 const Text = styled.div`
-  ${tw('font-serif text-center text-sm md:text-base')};
+  ${tw('font-sans text-center text-sm md:text-base')};
   text-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
 `;
 

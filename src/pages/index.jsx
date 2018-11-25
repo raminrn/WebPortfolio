@@ -97,7 +97,7 @@ const AboutDesc = styled.p`
 `;
 
 const ContactText = styled.p`
-  ${tw('text-center font-normal text-grey-dark font-sans text-2xl md:text-3xl lg:text-3xl')};
+  ${tw('text-center font-normal text-grey-dark font-sans text-3xl md:text-4xl lg:text-4xl')};
   a {
     color: #f0d547;
     text-decoration: none;

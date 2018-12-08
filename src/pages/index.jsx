@@ -235,7 +235,7 @@ const Index = () => (
           <AboutDesc>
             Coding is something I have always found intriguing, but started studying about 2 years ago and haven’t
             stopped ever since. <br />
-            The projects I have done reflect my vision of front end – simple but innovative and with each and every one
+            The projects I have done reflect my vision of front-end – simple but innovative and with each and every one
             of them I like to be diverse. Furthermore I have gained a lot of experience with responsive design that lets
             me optimise your web page for the various devices and browsers. <br />
             My focus is directed towards clean and modern design that is both interactive and effortless for the user.

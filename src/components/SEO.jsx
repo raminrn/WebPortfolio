@@ -5,6 +5,7 @@ import config from '../../config/website';
 const SEO = () => {
   const title = config.siteTitle;
   const description = config.siteDescription;
+  const keywords = config.siteKeyWords;
   const realPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix;
   const image = config.siteUrl + realPrefix + config.siteLogo;
   const blogURL = config.siteUrl + config.pathPrefix;
@@ -25,10 +26,12 @@ const SEO = () => {
       <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
       <link rel="shortcut icon" href="favicon.ico" />
+      <link rel="canonical" href="https://www.raminnazari.com/" />
       <meta name="msapplication-TileColor" content={config.backgroundColor} />
       <meta name="msapplication-config" content="browserconfig.xml" />
       <meta name="description" content={description} />
       <meta name="image" content={image} />
+      <meta name="keywords" content={keywords} />
       <script type="application/ld+json">{JSON.stringify(schemaOrgJSONLD)}</script>
       <meta property="og:locale" content={config.ogLanguage} />
       <meta property="og:site_name" content={config.ogSiteName} />

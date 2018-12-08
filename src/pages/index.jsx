@@ -89,11 +89,13 @@ const Avatar = styled.img`
 `;
 
 const AboutSub = styled.span`
-  ${tw('text-white pt-12 pb-6 md:pb-0 md:text-xl lg:pt-0 lg:pl-12 lg:text-xl lg:text-2xl xl:text-3xl')};
+  ${tw('text-white pt-12 pb-6 md:pb-0 sm:text-2xl md:text-2xl lg:pt-0 lg:pl-12 lg:text-3xl xl:text-3xl')};
 `;
 
 const AboutDesc = styled.p`
-  ${tw('text-grey-light text-justify text-justify text-base md:text-lg md:pt-12 lg:text-1xl font-sans xl:text-2xl ')};
+  ${tw(
+    'text-grey-light text-justify text-justify text-base sm:text-lg md:text-1xl md:pt-12 lg:text-xl font-sans xl:text-2xl '
+  )};
 `;
 
 const ContactText = styled.p`

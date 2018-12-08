@@ -5,7 +5,7 @@ import styled from 'react-emotion';
 
 const Wrapper = styled.a`
   width: 100%;
-  ${tw('relative no-underline px-8 py-8 md:py-24 text-white')};
+  ${tw('relative no-underline px-8 py-8 sm:py-16 md:py-24 text-white')};
   background: ${props => props.bg};
   transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   &:hover {
@@ -17,13 +17,13 @@ const Wrapper = styled.a`
 
 const Title = styled.div`
   ${tw(
-    'text-red-black font-semibold text-center font-serif leading-normal capitalize text-2xl md:text-3xl xl:text-4xl tracking-wide pb-6'
+    'text-red-black font-light text-center font-serif leading-normal capitalize text-2xl sm:text-3xl md:text-3xl xl:text-4xl tracking-wide pb-6'
   )};
   text-shadow: 1px 0px 3px #2e2e2e, 1px 0px 3px #212426;
 `;
 
 const Text = styled.div`
-  ${tw('font-sans text-center text-sm md:text-base')};
+  ${tw('font-sans text-center text-sm sm:text-lg md:text-lg')};
   text-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
 `;
 

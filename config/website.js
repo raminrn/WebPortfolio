@@ -3,7 +3,7 @@ const tailwind = require('../tailwind');
 module.exports = {
   pathPrefix: '/',
 
-  siteTitle: 'Ramin Nazari - Portfolio',
+  siteTitle: 'Ramin Nazari | Front End Developer Portfolio',
   siteTitleAlt: 'Ramin',
   siteUrl: 'https://raminnazari.com',
   siteLanguage: 'en',

@@ -43,7 +43,7 @@ const BigTitle = styled.h1`
   text-shadow: -1px -1px 1px #222222, 2px 2px 1px #212426;
 `;
 
-const Title = styled.h1`
+const Title = styled.h2`
   ${tw('text-right uppercase text-4xl lg:text-4xl font-sans text-white mb-8 tracking-wide relative inline-block')};
   text-shadow: 2px 0px 5px #222222, 2px 0px 5px #212426;
 `;
@@ -227,7 +227,7 @@ const Index = () => (
         <Inner>
           <Title>About</Title>
           <AboutHero>
-            <Avatar src={avatar} alt="Ramin Nazari" />
+            <Avatar src={avatar} alt="Unresistable photo of Ramin" />
             <AboutSub>
               “Believe in your infinite potential. Your only limitations are those you set upon yourself.”
             </AboutSub>

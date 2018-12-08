@@ -36,6 +36,8 @@ const SEO = () => {
       <meta property="og:locale" content={config.ogLanguage} />
       <meta property="og:site_name" content={config.ogSiteName} />
       <meta property="og:title" content={title} />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://www.raminnazari.com/"/>
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
       <meta property="fb:app_id" content={config.siteFBAppID ? config.siteFBAppID : ''} />

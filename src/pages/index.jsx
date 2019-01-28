@@ -133,7 +133,7 @@ const Footer = styled.footer`
 const Index = () => (
   <React.Fragment>
     <SEO />
-    <Parallax pages={5}>
+    <Parallax pages={4.5}>
       <Divider speed={0.2} offset={0}>
         <UpDown>
           <SVG icon="triangle" width={32} stroke={colors.orange} left="10%" top="70%" />
@@ -165,7 +165,7 @@ const Index = () => (
         offset={1.1}
         factor={2}
       />
-      <Content speed={0.4} offset={1.2} factor={2}>
+      <Content speed={0.4} offset={0.9} factor={2}>
         <Inner>
           <Title>Projects</Title>
           <ProjectsWrapper>
@@ -200,7 +200,7 @@ const Index = () => (
           </ProjectsWrapper>
         </Inner>
       </Content>
-      <Divider speed={0.1} offset={1} factor={2}>
+      <Divider speed={0.1} offset={1} factor={2.35}>
         <UpDown>
           <SVG icon="hexa" width={6} stroke={colors.white} left="35%" top="75%" />
           <SVG icon="upDown" width={8} fill={colors.teal} left="80%" top="20%" />
@@ -223,9 +223,9 @@ const Index = () => (
         <SVG icon="hexa" width={16} stroke={colors.red} left="65%" top="30%" />
         <SVG icon="hexa" width={8} stroke={colors.yellow} left="80%" top="70%" />
       </Divider>
-      <Divider bg="#23262b" clipPath="polygon(0 16%, 100% 4%, 100% 82%, 0 94%)" speed={0.2} offset={3} />
-      <Divider speed={0.1} offset={3} />
-      <Content speed={0.05} offset={3}>
+      <Divider bg="#23262b" clipPath="polygon(0 16%, 100% 4%, 100% 82%, 0 94%)" speed={0.2} offset={2.35} />
+      <Divider speed={0.1} offset={2.4} />
+      <Content speed={0.05} offset={2.35}>
         <Inner>
           <Title>About</Title>
           <AboutHero>
@@ -246,7 +246,7 @@ const Index = () => (
           </AboutDesc>
         </Inner>
       </Content>
-      <Divider fill="#23262b" speed={0.3} offset={4}>
+      <Divider fill="#23262b" speed={0.4} offset={3.7}>
         <WaveWrapper>
           <InnerWave>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 338.05" preserveAspectRatio="none">
@@ -262,7 +262,7 @@ const Index = () => (
           </InnerWave>
         </WaveWrapper>
       </Divider>
-      <Content speed={0.05} offset={4}>
+      <Content speed={0.05} offset={3.5}>
         <Inner>
           <Title>Contact</Title>
           <ContactText>
@@ -289,7 +289,7 @@ const Index = () => (
         </Inner>
         <Footer>&copy; 2018 Ramin Nazari</Footer>
       </Content>
-      <Divider speed={0.05} offset={4}>
+      <Divider speed={0.05} offset={3.3}>
         <UpDown>
           <SVG icon="upDown" className={hidden} width={8} fill={colors['grey-darkest']} left="40%" top="15%" />
           <SVG icon="hexa" width={32} stroke={colors['red-light']} left="1%" top="5%" />

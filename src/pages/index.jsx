@@ -10,7 +10,7 @@ import ProjectCard from '../components/ProjectCard';
 import { UpDown, UpDownWide, waveAnimation } from '../styles/animations';
 import { hidden } from '../styles/utils';
 import { colors } from '../../tailwind';
-import avatar from '../images/avatar.jpg';
+import avatar from '../images/avatar.webp';
 import '../styles/global';
 
 const Divider = styled(ParallaxLayer)`
@@ -200,7 +200,7 @@ const Index = () => (
           </ProjectsWrapper>
         </Inner>
       </Content>
-      <Divider speed={0.1} offset={1} factor={2.35}>
+      <Divider speed={0.1} offset={1} factor={2.4}>
         <UpDown>
           <SVG icon="hexa" width={6} stroke={colors.white} left="35%" top="75%" />
           <SVG icon="upDown" width={8} fill={colors.teal} left="80%" top="20%" />
@@ -224,8 +224,8 @@ const Index = () => (
         <SVG icon="hexa" width={8} stroke={colors.yellow} left="80%" top="70%" />
       </Divider>
       <Divider bg="#23262b" clipPath="polygon(0 16%, 100% 4%, 100% 82%, 0 94%)" speed={0.2} offset={2.35} />
-      <Divider speed={0.1} offset={2.4} />
-      <Content speed={0.05} offset={2.35}>
+      <Divider speed={0.1} offset={2.5} />
+      <Content speed={0.05} offset={2.5}>
         <Inner>
           <Title>About</Title>
           <AboutHero>
@@ -267,7 +267,7 @@ const Index = () => (
           <Title>Contact</Title>
           <ContactText>
             Send me{' '}
-            <a href="mailto:nazari.ramin96@gmail.com">
+            <a href="mailto:nazari.ramin96@gmail.com" aria-label="Email">
               <i className="far fa-envelope" />
             </a>{' '}
             <br /> or find me on <br />

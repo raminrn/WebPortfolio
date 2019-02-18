@@ -39,31 +39,33 @@ const Inner = styled.div`
 `;
 
 const BigTitle = styled.h1`
-  ${tw('text-4xl lg:text-4xl font-sans text-white mb-6 tracking-wide')};
+  ${tw('text-4xl lg:text-5xl font-sans text-white mb-6 tracking-wide')};
   text-shadow: -1px -1px 1px #222222, 2px 2px 1px #212426;
 `;
 
 const Title = styled.h2`
-  ${tw('text-right uppercase text-4xl lg:text-4xl font-sans text-white mb-8 tracking-wide relative inline-block')};
+  ${tw(
+    'text-right uppercase text-4xl lg:text-4xl font-sans font-light text-white mb-8 tracking-wide relative inline-block'
+  )};
   text-shadow: 2px 0px 5px #222222, 2px 0px 5px #212426;
 `;
 
 const Subtitle = styled.p`
-  ${tw('text-2xl lg:text-4xl font-sans text-white mt-8 xxl:w-3/4')};
+  ${tw('text-3xl lg:text-3xl font-sans font-light text-white mt-8 xxl:w-3/4')};
   text-shadow: 2px 2px 3px #222222, 2px 3px 3px #212426;
 `;
 
 const ProjectsWrapper = styled.div`
   ${tw('flex flex-wrap justify-between mt-8')};
   display: grid;
-  grid-gap: 4rem;
+  grid-gap: 0.5rem;
   grid-template-columns: repeat(2, 1fr);
   @media (max-width: 1200px) {
-    grid-gap: 3rem;
+    grid-gap: 0.5rem;
   }
   @media (max-width: 900px) {
     grid-template-columns: 1fr;
-    grid-gap: 2rem;
+    grid-gap: 1rem;
   }
 `;
 

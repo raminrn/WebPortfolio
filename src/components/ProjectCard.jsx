@@ -10,8 +10,8 @@ const Wrapper = styled.a`
   transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   &:hover {
     transform: translateY(-5px);
-    -webkit-box-shadow: 0 16px 35px 0 rgba(0, 0, 0, 0.27), 0 8px 20px 0 rgba(0, 0, 0, 0.15);
-    box-shadow: 0 16px 35px 0 rgba(0, 0, 0, 0.27), 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 16px 15px 0 rgba(0, 0, 0, 0.27), 0 8px 10px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 16px 15px 0 rgba(0, 0, 0, 0.27), 0 8px 10px 0 rgba(0, 0, 0, 0.15);
   }
 `;
 
